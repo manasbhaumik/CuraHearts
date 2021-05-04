@@ -5,9 +5,15 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+<<<<<<< HEAD
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
+=======
+   "build:ci": "ng build --prod --sourceMap=false --base-href /CuraHearts/",
+    "test:ci": "ng test",    
+    "lint": "ng lint",    
+>>>>>>> 0b4b9368babf3b300c7391bdb11982e84fb95155
     "e2e": "ng e2e",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && ng serve -o"
   },
