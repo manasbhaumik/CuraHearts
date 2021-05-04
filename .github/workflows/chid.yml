@@ -28,10 +28,7 @@ jobs:
           path: dist
       - name: Archive code coverage result
         if: success()
-        uses: actions/upload-artifact@v1
-        with:
-          name: deploy_coverage
-          path: coverage
+        uses: actions/upload-artifact@v1        
   deploy:
     runs-on: ubuntu-latest
     needs: build
