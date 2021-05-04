@@ -20,6 +20,6 @@ describe('AdminLayoutComponent', () => {
   });
 
   it('should create', () => {
-    expect(component).toBeUndefined();
+    expect(component).toBeTruthy();
   });
 });
